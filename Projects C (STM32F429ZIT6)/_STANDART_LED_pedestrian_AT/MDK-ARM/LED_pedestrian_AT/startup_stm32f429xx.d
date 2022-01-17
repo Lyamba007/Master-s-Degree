@@ -1,0 +1,1 @@
+led_pedestrian_at\startup_stm32f429xx.o: startup_stm32f429xx.s

@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp
+"led_pedestrian_at\startup_stm32f429xx.o"
+"led_pedestrian_at\main.o"
+"led_pedestrian_at\gpio.o"
+"led_pedestrian_at\gfxsimulator.o"
+"led_pedestrian_at\tim.o"
+"led_pedestrian_at\stm32f4xx_it.o"
+"led_pedestrian_at\stm32f4xx_hal_msp.o"
+"led_pedestrian_at\stm32f4xx_hal_tim.o"
+"led_pedestrian_at\stm32f4xx_hal_tim_ex.o"
+"led_pedestrian_at\stm32f4xx_hal_rcc.o"
+"led_pedestrian_at\stm32f4xx_hal_rcc_ex.o"
+"led_pedestrian_at\stm32f4xx_hal_flash.o"
+"led_pedestrian_at\stm32f4xx_hal_flash_ex.o"
+"led_pedestrian_at\stm32f4xx_hal_flash_ramfunc.o"
+"led_pedestrian_at\stm32f4xx_hal_gpio.o"
+"led_pedestrian_at\stm32f4xx_hal_dma_ex.o"
+"led_pedestrian_at\stm32f4xx_hal_dma.o"
+"led_pedestrian_at\stm32f4xx_hal_pwr.o"
+"led_pedestrian_at\stm32f4xx_hal_pwr_ex.o"
+"led_pedestrian_at\stm32f4xx_hal_cortex.o"
+"led_pedestrian_at\stm32f4xx_hal.o"
+"led_pedestrian_at\stm32f4xx_hal_exti.o"
+"led_pedestrian_at\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "LED_pedestrian_AT\LED_pedestrian_AT.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LED_pedestrian_AT.map" -o LED_pedestrian_AT\LED_pedestrian_AT.axf
